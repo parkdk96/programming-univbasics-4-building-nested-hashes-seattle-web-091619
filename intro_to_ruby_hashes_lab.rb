@@ -24,12 +24,12 @@ def monopoly_with_third_tier
       :pieces => 4, 
       :rent_in_dollars => {
         :one_piece_owned => 25, :key2 => {}, :key3 => {}, :key4 => {},
+      }
         :names => {
           :rail1 => {}, :rail2 => {}, :rail3 => {}, :rail4 => {}
         }
       } 
     }
-  }
 end
 
 def monopoly_with_fourth_tier
